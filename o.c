@@ -9,19 +9,19 @@ int main(void){
         if(operation == 1)
         {
 
-            printf("%.2f\n", num1 + num2);
+            printf("%f\n", num1 + num2);
         }
         else if(operation == 2)
         {
-            printf("%.2f\n",num1 - num2);
+            printf("%f\n",num1 - num2);
         }
         else if(operation == 3)
         {
-            printf("%.2f\n",num1 * num2);
+            printf("%f\n",num1 * num2);
         }
         else
         {
-            printf("%.2f\n",num1 / num2);
+            printf("%f\n",num1 / num2);
         }
     }
 }
